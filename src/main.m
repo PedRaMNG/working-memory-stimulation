@@ -46,7 +46,7 @@ try
 	% run SaveData.m
     % run main_video_fast.m
     run main_video_rgb.m
-    run plot_settings.m
+    % run plot_settings.m
 
     fprintf('\nTotal simulation time: %s\n', timeStr);
 
