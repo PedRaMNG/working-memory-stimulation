@@ -1,3 +1,9 @@
+Full code will be available after publication of the paper
+Files that will be added are:
+- plot_settings.m
+- plot_functions.m
+these files can be used to get the outputs similar to the paper.
+
 # Stimulation of a Neuron-Astrocyte Network (SNAN) with Working Memory (WM)
 
 Some parts of the code are from: https://github.com/PedRaMNG/working-memory-with-self-repairing
