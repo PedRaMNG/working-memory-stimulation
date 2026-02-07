@@ -33,7 +33,7 @@ function model = init_model()
 
     %% Astrocytes
     model.Ineuro = zeros(params.mastro, params.nastro, params.n, 'int8');
-    model.I_WM = zeros(params.mastro, params.nastro, params.n, 'logical'); 
+    model.W_WM = zeros(params.mastro, params.nastro, params.n, 'logical'); 
     model.neuron_astrozone_input_timings = ones(params.mastro, params.nastro, params.n, 'double');
     model.I_app_astro = zeros(params.mastro, params.nastro, 1, 'logical');
 

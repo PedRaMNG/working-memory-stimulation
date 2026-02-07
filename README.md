@@ -1,10 +1,9 @@
-Full code will be available after publication of the paper
+Full code will be available after publication of the paper  
 
-Files that will be added are:
-
+Files that will be added are:  
 - plot_settings.m
-- plot_functions.m
-  
+- plot_functions.m  
+
 These files can be used to get the outputs similar to the paper.
 
 # Stimulation of a Neuron-Astrocyte Network (SNAN) with Working Memory (WM)
@@ -19,6 +18,14 @@ Link to the paper: ...
 
 * The code was tested on MATLAB 2022b, it might work with earlier versions.
 * The minimum required amount of RAM is 32 GB.
+
+# Model's configuration
+
+<div align="center"><img src="./Results/1_Network.PNG"  alt='missing' width="400" ></div><br><br>
+
+# Graphical Abstract
+
+<div align="center"><img src="./Results/2_Graphical Abstract.jpg"  alt='missing' width="400" ></div> <br><br>
 
 # Settings
 
@@ -127,3 +134,5 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 # DeepWiki
 
 AI-generated overview of the code and the relationship between the code blocks:
+
+will be added

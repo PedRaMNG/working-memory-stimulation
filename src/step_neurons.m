@@ -1,4 +1,4 @@
-function model = step_neurons(model, params, is_STDP, i)
+function model = step_neurons(model, params, i)
     %% Inputs
     V_E = model.V_line_E(:, i);
     U_E = model.U_line_E(:, 1);

@@ -39,7 +39,7 @@ try
         fprintf(['Memory performance per image: ', fmt, '\n'], ...
             memory_performance.learned_pattern_similarities);
         % For experiment 1 (Enhance) and 3 (augmentation), you have to ...
-        % ... use compute_memory_performance2 wtih some manual changes instructed in that file.
+        % ... use compute_memory_performance2 with some manual changes instructed in that file.
     end
 
 %% Plot or Save data
