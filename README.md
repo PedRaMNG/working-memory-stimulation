@@ -21,7 +21,7 @@ Link to the paper: ...
 
 # Model's configuration
 
-<div align="center"><img src="./Results/1_Network.PNG"  alt='missing' width="400" ></div><br><br>
+<div align="center"><img src="./Results/1_Network.png"  alt='missing' width="400" ></div><br><br>
 
 # Graphical Abstract
 
