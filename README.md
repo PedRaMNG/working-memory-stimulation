@@ -1,8 +1,11 @@
 Full code will be available after publication of the paper
+
 Files that will be added are:
+
 - plot_settings.m
 - plot_functions.m
-these files can be used to get the outputs similar to the paper.
+  
+These files can be used to get the outputs similar to the paper.
 
 # Stimulation of a Neuron-Astrocyte Network (SNAN) with Working Memory (WM)
 
@@ -100,7 +103,7 @@ Setting `simPattern` to **5** activates the **Augmentation** mode (Case 5). This
 
 * The term `train` code is mentioned as **sample phase** in the paper.
 * In all modes, stimulation current (`I_stim`) is added to `I_app_astro` inside the `get_neuron_astrozone_activity.m` function.
-* Files with the **UT** extension are **Unit Test** files used for fast iteration and testing of a function. They are typically designed for standalone execution but sometimes they need data from a simulation. To get the UT files for enhance and disrupt functions, email the corresponding author (Mahmood Amiri).
+* Files with the **TB** extension are **Test Bench** files used for fast iteration and testing of a function. They are typically designed for standalone execution but sometimes they need data from a simulation. To get the UT files for enhance and disrupt functions, email the corresponding author (Mahmood Amiri).
 * `accuracy_elec` measures the correlation, mentioned in the paper.
 * Extra code for synaptic plasticity is provided in `step_neurons.m` for future work.
 * To load your saved data, open `saveLoadData.m` and run the **Import** section.
