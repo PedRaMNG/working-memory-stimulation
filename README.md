@@ -1,8 +1,9 @@
-Full code will be available after publication of the paper  
+Full code will be available after publication of the paper
 
-Files that will be added are:  
+Files that will be added are:
+
 - plot_settings.m
-- plot_functions.m  
+- plot_functions.m
 
 These files can be used to get the outputs similar to the paper.
 
@@ -108,14 +109,14 @@ Setting `simPattern` to **5** activates the **Augmentation** mode (Case 5). This
 
 # Code
 
-* The term `train` code is mentioned as **sample phase** in the paper.
+* The term `train` in the code is mentioned as **sample phase** in the paper.
 * In all modes, stimulation current (`I_stim`) is added to `I_app_astro` inside the `get_neuron_astrozone_activity.m` function.
-* Files with the **TB** extension are **Test Bench** files used for fast iteration and testing of a function. They are typically designed for standalone execution but sometimes they need data from a simulation. To get the UT files for enhance and disrupt functions, email the corresponding author (Mahmood Amiri).
+* Files with the **TB** extension are **Test Bench** files used for fast iteration and testing of a function. They are typically designed for standalone execution but sometimes they need data from a simulation. To get the TB files for enhance and disrupt functions, email the corresponding author (Mahmood Amiri).
 * `accuracy_elec` measures the correlation, mentioned in the paper.
 * Extra code for synaptic plasticity is provided in `step_neurons.m` for future work.
 * To load your saved data, open `saveLoadData.m` and run the **Import** section.
 * To use `sendTelegramMessage` function you need to set some configuration inside its function.
-* To understand the relationship between code blocks, we recommend to check out the AI-generated overview by **DeepWiki**, linked at the bottom of this readme file. Since it is a fully automated process by AI, **it can make mistakes**.
+* To understand the relationship between code blocks, we recommend to check out the AI-generated overview by **DeepWiki**, linked at the bottom of this readme file. Note that this is a fully automated AI generated document.
 
 # Authors
 
