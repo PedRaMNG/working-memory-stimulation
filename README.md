@@ -1,15 +1,6 @@
-Full code will be available after publication of the paper
-
-Files that will be added are:
-
-- plot_settings.m
-- plot_functions.m
-
-These files can be used to get the outputs similar to the paper.
-
 # Stimulation of a Neuron-Astrocyte Network (SNAN) with Working Memory (WM)
 
-Some parts of the code are from: https://github.com/PedRaMNG/working-memory-with-self-repairing
+Some parts of the code are from: [Working memory with self-repairing](https://github.com/PedRaMNG/working-memory-with-self-repairing)
 
 This repository contains MATLAB code for online/offline excitatory/inhibitory stimulation of a Neuron-Astrocyte Network (SNAN) with Working Memory (WM), published in iScience journal.
 
@@ -20,15 +11,27 @@ Link to the paper: ...
 * The code was tested on MATLAB 2022b, it might work with earlier versions.
 * The minimum required amount of RAM is 32 GB.
 
-# Model's configuration
-
-<div align="center"><img src="./Results/1_Network.png"  alt='missing' width="400" ></div><br><br>
-
 # Graphical Abstract
 
-<div align="center"><img src="./Results/2_Graphical Abstract.jpg"  alt='missing' width="400" ></div> <br><br>
+<div align="center"><img src="./assets/2_Graphical Abstract.jpg"  alt='missing' width="400" ></div> <br><br>
+
+
+# Video performance of the model
+
+<div align="center">
+  <a href="./assets/video_s1.mp4">
+    <img src="./assets/video S1 thumbnail.png" alt="Video demo" width="600">
+  </a>
+  <br>
+  <em>Click the image to watch the video</em>
+</div>
 
 # Settings
+
+## Model's configuration
+
+<div align="center"><img src="./assets/1_Network.png"  alt='missing' width="400" ></div><br><br>
+
 
 ## Quick setup
 
