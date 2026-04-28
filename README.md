@@ -137,6 +137,4 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 
 # DeepWiki
 
-AI-generated overview of the code and the relationship between the code blocks:
-
-will be added
+AI-generated overview of the code and the relationship between the code blocks: [DeepWiki - WM-with-Stimulation](https://deepwiki.com/PedRaMNG/working-memory-stimulation)
