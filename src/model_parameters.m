@@ -180,7 +180,7 @@ function [params, paramss] = model_parameters(need_set, new_params, new_paramss)
     params.poisson_n_impulses        = 7;      
     params.poisson_impulse_duration  = fix(0.02 / params.step);  
     params.poisson_impulse_initphase = fix(1.4 / params.step);   
-    params.poisson_amplitude         = 5;      % µA  20
+    params.poisson_amplitude         = 5;      % µA
 
     %% Runge-Kutta steps
     params.u2                       = params.step / 2;
@@ -254,7 +254,7 @@ function [params, paramss] = model_parameters(need_set, new_params, new_paramss)
     %% Astrocyte Model
     params.dCa                      = 0.05; % Calcium dynamics parameter
     params.dIP3                     = 0.05; % IP3 dynamics parameter (alt: 0.1)
-	params.zeta_WM					= 0.10; % whole-cell activity consuption factor for WM (alt: 0.25)
+	params.zeta_WM					= 0.10; % whole-cell activity ca consumption factor for WM (alt: 0.25)
     
     % Astrocyte observation window parameters
     window_astro_watch              = 0.01;   % Observation window duration (s)
